@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.c-white {
+  color: #fff;
+}
+.gen-btn button {
+  background-color: #dfa32f;
+  font-size: 33px;
+  padding: 16px 45px;
+  border: none;
+  outline: none;
+  transition: .3s;
+}
+.gen-btn  button:hover{
+  border-radius: 50px;
+  box-shadow: 5px 5px 9px rgb(92, 92, 88);
+}
+ul{
+  list-style: none;
+}
+
+.gen-btn {
+  text-align: center;
+  position: relative;
+  top: -26px;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000a1;
+  padding-top: 70px;
+  z-index: 2;
+}.navbar{
+  flex-direction: column;
+}
+.menu-list{
+  display: inline-flex;
+  margin-top: 20px;
+}
+.menu-list li a{
+  color: #fff;
+  font-size: 25px;
+  padding: 0 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu-list li a:hover{
+  color: #dfa32f;
+}
+.close-btn{
+  position: absolute;
+  top: 3%;
+  right: 9%;
+}
+.icon{
+  display: none;
+}
+.enjoy {
+  min-height: 1146px;
+  background-image: url("image/enjoy.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding-top: 16%;
+  padding-bottom: 4.5%;
+}
+.enjoy-info {
+  font-family: "Kaushan Script", cursive;
+  transform: rotate(-15deg);
+  padding-top: 93px;
+}
+.enjoy-content h1 {
+  font-size: 94px;
+}
+.enjoy-content h2 {
+  font-size: 120px;
+}
+.enjoy-date h3 {
+  font-size: 37px;
+  color: #dfa32f;
+}
+.enjoy-date h4 {
+  font-size: 37px;
+  text-transform: uppercase;
+}
+.enjoy-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 847px;
+}
+.healthy {
+  padding: 80px 0;
+}
+.health-head {
+  padding: 0 50px;
+}
+.health-head h2 {
+  font-size: 37px;
+}
+.health-head p {
+  font-size: 23px;
+  margin-top: 30px;
+}
+.h-image img {
+  width: 75%;
+}
+.history {
+  background-image: url("image/histry.png");
+  background-size: 100% 100%;
+  min-height: 886px;
+  background-repeat: no-repeat;
+  padding-top: 73px;
+  position: relative;
+}
+.h-logo {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h-content {
+  padding: 0 50px;
+}
+.h-content h2 {
+  font-size: 37px;
+  color: #dfa32f;
+}
+.h-content h5 {
+  font-size: 23px;
+  font-weight: 100;
+}
+.d-info h2,
+.r-info h2 {
+  font-size: 37px;
+  padding-right: 20%;
+  text-transform: capitalize;
+}
+.d-info p,
+.r-info p {
+  font-size: 23px;
+  margin-bottom: 79px;
+  hyphens: auto;
+  padding-right: 34px;
+}
+.d-col,
+.r-col {
+  padding: 0 !important;
+}
+.d-info,
+.r-info {
+  padding: 17%;
+  height: 100%;
+  padding-bottom: 0;
+}
+.d-info .gen-btn,
+.r-info .gen-btn {
+  text-align: left;
+}
+.rich {
+  background-color: #000;
+}
+.under-rich {
+  padding: 8.4% 4.17%;
+}
+.breakfast {
+  min-height: 960px;
+  background-image: url("image/breakfast.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.b-info,
+.b-discount {
+  font-family: "Kaushan Script", cursive;
+  transform: rotate(-15deg);
+  display: inline-block;
+  text-align: center;
+}
+.b-discount {
+  padding-left: 90px;
+  padding-top: 40px;
+}
+.b-content h1 {
+  font-size: 59px;
+}
+.b-content h2 {
+  font-size: 76px;
+}
+.b-discount h1 {
+  font-size: 73px;
+  color: #dfa32f;
+}
+.b-content {
+  padding-right: 70px;
+  min-height: 960px;
+  align-items: start;
+}
+.b-content p {
+  font-size: 23px;
+  margin-bottom: 60px;
+}
+.b-content .gen-btn {
+  text-align: left;
+}
+.food {
+  padding: 10% 8%;
+}
+.food-content {
+  padding: 10px 50px;
+  transition: .2s;
+}
+.food-content:hover{
+  border: 10px double #5c5c5c;
+}
+.food-info {
+  padding-bottom: 50px;
+}
+.food-info h1 {
+  font-size: 39px;
+}
+.food-info p {
+  font-size: 23px;
+}
+.food-logo {
+  padding: 31%;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+.f-head h1 {
+  font-size: 37px;
+  color: #dfa32f;
+  margin-bottom: 20px;
+}
+.footer {
+  background-image: url("image/foot-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 827px;
+  padding: 8% 5%;
+}
+.f-content h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.f-content ul li {
+  font-size: 20px;
+  margin: 22px 0;
+}
+.f-content h1{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.footer input{
+  background-color: transparent;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 5px solid #fff;
+      width: 94%;
+    margin: 10px 0;
+}
+.footer .gen-btn{
+  margin-top: 40px;
+  text-align: left;
+}
+.foot-icon{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.foot-icon i{
+  
+      font-size: 40px;
+    margin: 20px ;
+}
+@media (max-width:1300px) {
+  .header{
+    padding-top: 20px;
+  }
+.enjoy-content{
+  min-height: 834px;
+}
+.enjoy {
+    min-height: 1053px;
+}
+.d-info, .r-info {
+    padding: 4%
+}
+.b-content {
+    padding-right: 0;
+}
+.food-content {
+    padding: 10px 0;
+}
+.footer{
+  min-height: 680px;
+}
+.enjoy-content h2 {
+    font-size: 100px;
+}
+ 
+}
+@media (max-width:991px){
+  .d-row{
+    flex-wrap: wrap-reverse!important;
+  }
+  .d-info, .r-info ,
+  .d-info .gen-btn, .r-info .gen-btn{
+    text-align: center;
+  }
+  .d-info, .r-info{
+    padding: 20px 0;
+  }
+  .d-info h2, .r-info h2{
+    padding: 0;
+  }
+  .f-row{
+    justify-content: center!important;
+  }
+  .footer{
+    text-align: center;
+  }
+  .foot-icon{
+    flex-direction: row;
+    justify-content: center;
+  }
+ .enjoy {
+    min-height: 800px;
+}
+.enjoy-content {
+    min-height: 580px;
+}
+.enjoy-content h2 {
+    font-size: 77px;
+}
+.enjoy-content h1 {
+    font-size: 56px;
+}
+.footer .gen-btn{
+  text-align: center;
+}
+} 
+@media (max-width:800px){
+  .icon{
+    display: block;
+  }
+  .icon.hide{
+    display: none;
+  }
+
+  .menu-list{
+    position: fixed;
+    top: 95px;
+    height: 100vh;
+    left: -100%;
+    width: 200px;
+    display: block;
+    background-color: #000000a1;
+    padding: 55px 0 10px 15px;
+    z-index: 1;
+  }
+  .menu-list.active{
+    left: 0;
+  }
+  .menu-list li{
+    padding: 5px 12px;
+  }
+
+.h-content,
+.health-head,
+.d-info, .r-info  {
+    padding: 0px 10px;
+}
+.gen-btn button{
+      font-size: 27px;
+    padding: 6px 22px;
+}
+.footer input{
+  width: 100%;
+}
+.b-info, .b-discount,
+.enjoy-info{
+  transform: rotate(0);
+}
+.b-content h1
+{
+    font-size: 57px;
+}
+.b-content h2,
+.enjoy-content h2 {
+    font-size: 66px;
+}
+.b-content{
+  align-items: center!important;
+  text-align: center;
+}
+.b-discount{
+  padding: 0;
+}
+}
+@media (max-width:600px){
+  .health-head h2,
+  .h-content h2 ,
+  .d-info h2, .r-info h2,
+  .food-info h1,
+  .f-head h1{
+    font-size: 25px;
+}
+.h-content h5 ,
+.d-info p, .r-info p,
+.food-info p,
+.b-content p{
+    font-size: 18px;
+}
+.foot-icon i {
+    font-size: 30px;
+    margin: 15px;
+}
+.b-content h2, .enjoy-content h2 {
+    font-size: 50px;
+}
+.b-content h1 ,.enjoy-content h1{
+    font-size: 35px;
+}
+.enjoy-content {
+    min-height: 400px;
+}
+.enjoy {
+    min-height: 483px;
+}
+.history{
+  min-height: 550px;
+}
+.h-logo{
+  width: 80px;
+}
+}
+@media (max-width:420px){
+  .enjoy-date h4 {
+    font-size: 26px;
+}
+.enjoy-date h3 {
+    font-size: 29px;
+}
+.foot-icon i {
+    font-size: 26px;
+    margin: 10px;
+}
+.b-content h2, .enjoy-content h2 {
+    font-size: 37px;
+}
+.b-content h1, .enjoy-content h1 {
+    font-size: 30px;
+}
+.d-info p, .r-info p{
+  padding-right: 0;
+}
+.b-content{
+  min-height: 722px;
+}
+.breakfast{
+  min-height: 750px;
+}
+.h-logo{
+  width: 50px;
+}
+}
